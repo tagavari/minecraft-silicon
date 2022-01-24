@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED49ECD6279C5B6D004CB8E8 /* MinecraftSiliconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49ECD5279C5B6D004CB8E8 /* MinecraftSiliconApp.swift */; };
+		ED49ECD8279C5B6D004CB8E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49ECD7279C5B6D004CB8E8 /* ContentView.swift */; };
+		ED49ECDA279C5B6E004CB8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49ECD9279C5B6E004CB8E8 /* Assets.xcassets */; };
+		ED49ECDD279C5B6E004CB8E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED49ECDC279C5B6E004CB8E8 /* Preview Assets.xcassets */; };
+		ED49ECE5279C6783004CB8E8 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49ECE4279C6783004CB8E8 /* Paths.swift */; };
+		ED54866E279F40F400A19F12 /* VersionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54866D279F40F400A19F12 /* VersionHelper.swift */; };
+		EDA0E6DA279C712700A6F98B /* Versions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6D9279C712700A6F98B /* Versions.swift */; };
+		EDA0E6DC279C745800A6F98B /* LoggingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6DB279C745800A6F98B /* LoggingHelper.swift */; };
+		EDA0E6DE279C833600A6F98B /* VersionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6DD279C833600A6F98B /* VersionDetailView.swift */; };
+		EDA0E6E1279C857A00A6F98B /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6E0279C857A00A6F98B /* Profiles.swift */; };
+		EDA0E6E3279C8F4700A6F98B /* PlayableEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6E2279C8F4700A6F98B /* PlayableEntry.swift */; };
+		EDA0E6E5279C941300A6F98B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6E4279C941300A6F98B /* Constants.swift */; };
+		EDA0E6E7279C94CC00A6F98B /* LauncherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6E6279C94CC00A6F98B /* LauncherDataModel.swift */; };
+		EDA0E6EC279CA99100A6F98B /* JavaInstalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6EB279CA99100A6F98B /* JavaInstalls.swift */; };
+		EDA0E6EF279CC60400A6F98B /* JavaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6EE279CC60400A6F98B /* JavaLibrary.swift */; };
+		EDA0E6F1279CC63500A6F98B /* DictionaryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6F0279CC63500A6F98B /* DictionaryHelper.swift */; };
+		EDA0E6F3279CC6AC00A6F98B /* AdapterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6F2279CC6AC00A6F98B /* AdapterConstants.swift */; };
+		EDA0E6F5279CC6F200A6F98B /* AdapterURLResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6F4279CC6F200A6F98B /* AdapterURLResolver.swift */; };
+		EDA0E6F7279CC89B00A6F98B /* AdapterRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6F6279CC89B00A6F98B /* AdapterRules.swift */; };
+		EDA0E6F9279CC92C00A6F98B /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0E6F8279CC92C00A6F98B /* Adapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED49ECD2279C5B6D004CB8E8 /* Minecraft Silicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Silicon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49ECD5279C5B6D004CB8E8 /* MinecraftSiliconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftSiliconApp.swift; sourceTree = "<group>"; };
+		ED49ECD7279C5B6D004CB8E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED49ECD9279C5B6E004CB8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED49ECDC279C5B6E004CB8E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED49ECDE279C5B6E004CB8E8 /* MinecraftSilicon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MinecraftSilicon.entitlements; sourceTree = "<group>"; };
+		ED49ECE4279C6783004CB8E8 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		ED54866D279F40F400A19F12 /* VersionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHelper.swift; sourceTree = "<group>"; };
+		EDA0E6D9279C712700A6F98B /* Versions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versions.swift; sourceTree = "<group>"; };
+		EDA0E6DB279C745800A6F98B /* LoggingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingHelper.swift; sourceTree = "<group>"; };
+		EDA0E6DD279C833600A6F98B /* VersionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionDetailView.swift; sourceTree = "<group>"; };
+		EDA0E6E0279C857A00A6F98B /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		EDA0E6E2279C8F4700A6F98B /* PlayableEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableEntry.swift; sourceTree = "<group>"; };
+		EDA0E6E4279C941300A6F98B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDA0E6E6279C94CC00A6F98B /* LauncherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherDataModel.swift; sourceTree = "<group>"; };
+		EDA0E6EB279CA99100A6F98B /* JavaInstalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaInstalls.swift; sourceTree = "<group>"; };
+		EDA0E6EE279CC60400A6F98B /* JavaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaLibrary.swift; sourceTree = "<group>"; };
+		EDA0E6F0279CC63500A6F98B /* DictionaryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryHelper.swift; sourceTree = "<group>"; };
+		EDA0E6F2279CC6AC00A6F98B /* AdapterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterConstants.swift; sourceTree = "<group>"; };
+		EDA0E6F4279CC6F200A6F98B /* AdapterURLResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterURLResolver.swift; sourceTree = "<group>"; };
+		EDA0E6F6279CC89B00A6F98B /* AdapterRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterRules.swift; sourceTree = "<group>"; };
+		EDA0E6F8279CC92C00A6F98B /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED49ECCF279C5B6D004CB8E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED49ECC9279C5B6D004CB8E8 = {
+			isa = PBXGroup;
+			children = (
+				ED49ECD4279C5B6D004CB8E8 /* Minecraft Silicon */,
+				ED49ECD3279C5B6D004CB8E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED49ECD3279C5B6D004CB8E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED49ECD2279C5B6D004CB8E8 /* Minecraft Silicon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED49ECD4279C5B6D004CB8E8 /* Minecraft Silicon */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0E6ED279CC5BF00A6F98B /* Adapter */,
+				ED49ECD9279C5B6E004CB8E8 /* Assets.xcassets */,
+				EDA0E6DF279C856B00A6F98B /* Data */,
+				ED54866C279F40E800A19F12 /* Helper */,
+				EDA0E6E6279C94CC00A6F98B /* LauncherDataModel.swift */,
+				EDA0E6DB279C745800A6F98B /* LoggingHelper.swift */,
+				ED49ECDE279C5B6E004CB8E8 /* MinecraftSilicon.entitlements */,
+				ED49ECD5279C5B6D004CB8E8 /* MinecraftSiliconApp.swift */,
+				ED49ECDB279C5B6E004CB8E8 /* Preview Content */,
+				ED8DB039279E5E2700BC101A /* View */,
+			);
+			path = "Minecraft Silicon";
+			sourceTree = "<group>";
+		};
+		ED49ECDB279C5B6E004CB8E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED49ECDC279C5B6E004CB8E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED54866C279F40E800A19F12 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED54866D279F40F400A19F12 /* VersionHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ED8DB039279E5E2700BC101A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED49ECD7279C5B6D004CB8E8 /* ContentView.swift */,
+				EDA0E6DD279C833600A6F98B /* VersionDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDA0E6DF279C856B00A6F98B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0E6E4279C941300A6F98B /* Constants.swift */,
+				EDA0E6EB279CA99100A6F98B /* JavaInstalls.swift */,
+				ED49ECE4279C6783004CB8E8 /* Paths.swift */,
+				EDA0E6E2279C8F4700A6F98B /* PlayableEntry.swift */,
+				EDA0E6E0279C857A00A6F98B /* Profiles.swift */,
+				EDA0E6D9279C712700A6F98B /* Versions.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EDA0E6ED279CC5BF00A6F98B /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0E6F8279CC92C00A6F98B /* Adapter.swift */,
+				EDA0E6F2279CC6AC00A6F98B /* AdapterConstants.swift */,
+				EDA0E6F6279CC89B00A6F98B /* AdapterRules.swift */,
+				EDA0E6F4279CC6F200A6F98B /* AdapterURLResolver.swift */,
+				EDA0E6F0279CC63500A6F98B /* DictionaryHelper.swift */,
+				EDA0E6EE279CC60400A6F98B /* JavaLibrary.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED49ECD1279C5B6D004CB8E8 /* Minecraft Silicon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49ECE1279C5B6E004CB8E8 /* Build configuration list for PBXNativeTarget "Minecraft Silicon" */;
+			buildPhases = (
+				ED49ECCE279C5B6D004CB8E8 /* Sources */,
+				ED49ECCF279C5B6D004CB8E8 /* Frameworks */,
+				ED49ECD0279C5B6D004CB8E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Silicon";
+			productName = "Minecraft Silicon";
+			productReference = ED49ECD2279C5B6D004CB8E8 /* Minecraft Silicon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED49ECCA279C5B6D004CB8E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ED49ECD1279C5B6D004CB8E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED49ECCD279C5B6D004CB8E8 /* Build configuration list for PBXProject "Minecraft Silicon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED49ECC9279C5B6D004CB8E8;
+			productRefGroup = ED49ECD3279C5B6D004CB8E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED49ECD1279C5B6D004CB8E8 /* Minecraft Silicon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED49ECD0279C5B6D004CB8E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED49ECDD279C5B6E004CB8E8 /* Preview Assets.xcassets in Resources */,
+				ED49ECDA279C5B6E004CB8E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED49ECCE279C5B6D004CB8E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA0E6DE279C833600A6F98B /* VersionDetailView.swift in Sources */,
+				EDA0E6F5279CC6F200A6F98B /* AdapterURLResolver.swift in Sources */,
+				ED49ECE5279C6783004CB8E8 /* Paths.swift in Sources */,
+				EDA0E6E3279C8F4700A6F98B /* PlayableEntry.swift in Sources */,
+				EDA0E6EF279CC60400A6F98B /* JavaLibrary.swift in Sources */,
+				EDA0E6F9279CC92C00A6F98B /* Adapter.swift in Sources */,
+				EDA0E6E7279C94CC00A6F98B /* LauncherDataModel.swift in Sources */,
+				EDA0E6DC279C745800A6F98B /* LoggingHelper.swift in Sources */,
+				ED54866E279F40F400A19F12 /* VersionHelper.swift in Sources */,
+				ED49ECD8279C5B6D004CB8E8 /* ContentView.swift in Sources */,
+				EDA0E6EC279CA99100A6F98B /* JavaInstalls.swift in Sources */,
+				EDA0E6F7279CC89B00A6F98B /* AdapterRules.swift in Sources */,
+				EDA0E6E1279C857A00A6F98B /* Profiles.swift in Sources */,
+				EDA0E6F3279CC6AC00A6F98B /* AdapterConstants.swift in Sources */,
+				EDA0E6F1279CC63500A6F98B /* DictionaryHelper.swift in Sources */,
+				EDA0E6DA279C712700A6F98B /* Versions.swift in Sources */,
+				ED49ECD6279C5B6D004CB8E8 /* MinecraftSiliconApp.swift in Sources */,
+				EDA0E6E5279C941300A6F98B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED49ECDF279C5B6E004CB8E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED49ECE0279C5B6E004CB8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ED49ECE2279C5B6E004CB8E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Minecraft Silicon/MinecraftSilicon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minecraft Silicon/Preview Content\"";
+				DEVELOPMENT_TEAM = T86T6AP696;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tagavari.minecraftsilicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED49ECE3279C5B6E004CB8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Minecraft Silicon/MinecraftSilicon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minecraft Silicon/Preview Content\"";
+				DEVELOPMENT_TEAM = T86T6AP696;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tagavari.minecraftsilicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED49ECCD279C5B6D004CB8E8 /* Build configuration list for PBXProject "Minecraft Silicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49ECDF279C5B6E004CB8E8 /* Debug */,
+				ED49ECE0279C5B6E004CB8E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49ECE1279C5B6E004CB8E8 /* Build configuration list for PBXNativeTarget "Minecraft Silicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49ECE2279C5B6E004CB8E8 /* Debug */,
+				ED49ECE3279C5B6E004CB8E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED49ECCA279C5B6D004CB8E8 /* Project object */;
+}
